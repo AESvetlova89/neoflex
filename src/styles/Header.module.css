@@ -1,0 +1,59 @@
+.header {
+    background: rgb(234, 234, 234);
+    width: 1135px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_name {
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    cursor: pointer;
+}
+.logo_name:hover {
+    transform: scale(1.1);
+}
+
+.logo_name a {
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+}
+
+.cart_like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin-right: 20px;
+}
+
+.cart_like div {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+}
+
+.like,
+.cart{
+    position: relative;
+}
+
+.count_like,
+.count_cart {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 10px;
+    right: 5px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 165, 66);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

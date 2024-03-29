@@ -1,0 +1,114 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    font-family: Montserrat, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+    width: 350px;
+    height: 400px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1110px;
+    gap: 30px;
+    flex: 1;
+}
+
+.category {
+    color: rgb(131, 131, 131);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.card_img {
+    margin: 15px 55px 50px 55px;
+    height: 240px;
+}
+
+.card_img > img {
+    max-width: 220px;
+    max-height: 225px;
+}
+
+.card_text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 26px;
+    gap: 15px;
+}
+
+.text_price {
+    height: 40px;
+}
+
+.card_name_product {
+    color: rgb(28, 28, 39);
+}
+
+.current_price {
+    color: rgb(255, 165, 66);
+}
+
+.name_price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.old_price {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(255, 165, 66);
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration-line: line-through;
+    gap: 0;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    color: rgb(131, 131, 131);
+    max-width: 60px;
+    max-height: 22px;
+    gap: 10px;
+}
+
+.star img {
+    max-width: 23px;
+    max-height: 22px;
+}
+
+.star_buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.buy:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.buy:active {
+    color: green;
+}

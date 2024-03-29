@@ -1,0 +1,102 @@
+.footer {
+    bottom: 0;
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    color: rgb(16, 16, 16);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    height: 150px;
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    flex-shrink: 0;
+}
+
+.logo_name {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 90px;
+    width: 80px;
+}
+
+.logo_name:hover {
+    transform: scale(1.1);
+}
+
+.logo_name a {
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    cursor: pointer;
+}
+
+.links {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    display: flex;
+    gap: 150px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.first_column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.first_column > a {
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+}
+
+.second_column {
+    display: flex;
+    flex-direction: column;
+    max-width: 160px;
+    gap: 35px;
+}
+
+.change_lang {
+    display: flex;
+    color: rgb(16, 16, 16);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    gap: 20px;
+}
+
+.change_lang button {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 90px;
+    gap: 18px;
+}
+
+.social img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.link_img:hover {
+    transform: scale(1.1);
+}
+
+.change_lang > .active {
+    color: rgb(255, 165, 66);
+}
